@@ -1,0 +1,161 @@
+/*===========================
+ *  Author:    	Dave Luke Jr
+ *  Company:   	CenterStack.io
+ *  Description:   style.scss
+ *===========================*/
+@import "variables";
+
+
+
+/*	Base
+========================================= */
+$base: #47B475;
+$base-grey: #F8F8F8;
+$base-black: #292929;
+$font: "Raleway";
+.font-base { color: $base !important;}
+.base-bg { background: $base !important; }
+.font-base-grey { color: $base-grey !important;}
+.base-grey-bg { background: $base-grey !important; }
+.font-black { color: $base-black !important;}
+.black-bg { background: $base-black !important;}
+
+
+.font-cabin-sketch { font-family: 'Cabin Sketch', cursive !important; }
+.font-londrina-sketch { font-family: 'Londrina Sketch', cursive !important; }
+.font-amatic { font-family: 'Amatic SC', cursive !important; }
+.font-jura { font-family: 'Jura', sans-serif !important; }
+.font-nixie-one { font-family: 'Nixie One', cursive !important; }
+.font-annie-use { font-family: 'Annie Use Your Telescope', cursive !important; }
+.font-love-ya { font-family: 'Love Ya Like A Sister', cursive !important; }
+.font-montez { font-family: 'Montez', cursive !important; }
+.font-wire-one { font-family: 'Wire One', sans-serif !important; }
+.font-gruppo { font-family: 'Gruppo', cursive !important; }
+.font-kranky { font-family: 'Kranky', cursive !important; }
+.font-pompiere { font-family: 'Pompiere', cursive !important; }
+.font-amatica { font-family: 'Amatica SC', cursive !important; }
+
+
+p {
+	font-size: 12px;
+	font-weight: 400;
+	margin-bottom: 0px;
+}
+.align-bottom {
+	bottom: 10px;
+}
+.btn {
+	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border: 2px solid $base;
+	padding: 0 26px;
+	height: 40px;
+	min-width: 150px;
+	line-height: 36px;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border-radius: 0;
+	color: $base;
+	text-align: center;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	margin-right: 8px;
+	margin-bottom: 24px;
+}
+.btn-sm {
+	height: 30px;
+	font-size: 11px;
+	line-height: 27px;
+	min-width: 0;
+}
+.btn-white:visited, .btn:visited:hover, .btn-filled:visited {
+	color: #fff;
+}
+.btn:visited {
+	color: $base;
+}
+.btn:hover {
+	background: $base;
+	color: #fff;
+}
+.btn:hover, .btn:focus, .btn.focus {
+	color: #333;
+	text-decoration: none;
+}
+.btn-filled {
+	background: $base;
+	color: #fff !important;
+}
+.overlay-right:before {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #292929;
+	opacity: 0.3;
+	z-index: 2;
+}
+.overlay:before {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #292929;
+	opacity: 0.5;
+	z-index: 2;
+}
+.foundry_modal {
+	overflow-y: auto;
+	height: 500px;
+	width: 500px;
+	position: fixed;
+	padding: 30px 50px;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	opacity: 0;
+	visibility: hidden;
+	top: 50%;
+	left: 50%;
+	background: #fff;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+	transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	z-index: -1;
+}
+button[type="submit"] {
+	height: 40px;
+}
+.modal-container {
+	display: inline-block;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
