@@ -1,0 +1,74 @@
+/*===========================
+ *  Author:		Dave Luke Jr
+ *  Company:	CenterStack.io
+ *  Description:	responsive.scss
+ *===========================*/
+/*=============================
+ *  Author:		 Dave Luke Jr
+ *  Company:	 CenterStack.io
+ *  Description:	 Sass Global Variables
+ *=============================*/
+/*	Base
+========================================= */
+/*	Font-family
+========================================= */
+/*	Metronic Colors
+===================== */
+/*	Text Colors
+========================================= */
+/*	Other Colors
+========================================= */
+/*==================================================
+	Structure Outline Colors
+
+	Rule:
+	- Flexbox outlines are solid
+	- Bootstrap outlines are dashes
+==================================================*/
+/*==================================================
+	Linear Gradients
+==================================================*/
+/*==================================================
+	Breakpoints / Breakpoint Container Widths
+==================================================*/
+/*==================================================
+	Mixins
+==================================================*/
+/*==================================================
+	Mixin - Maintain Aspect Ratio
+==================================================*/
+/*	Non-responsive Greater Than Phone
+========================================= */
+@media only screen and (min-width: 1400px) {
+  #main-text {
+    padding: 0px 6vw !important;
+    font-size: 16px !important;
+    line-height: 28px !important; } }
+/*	Non-responsive Greater Than Phone
+========================================= */
+@media only screen and (min-width: 1201px) and (max-width: 1399px) {
+  #main-text {
+    padding: 0px 5vw !important;
+    font-size: 16px !important;
+    line-height: 28px !important; } }
+/*	Non-responsive Greater Than Phone
+========================================= */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  #main-text {
+    padding: 0px 4vw !important;
+    font-size: 15px !important;
+    line-height: 26px !important; } }
+/*	Non-responsive Greater Than Phone
+========================================= */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  #main-text {
+    padding: 0px 3vw !important;
+    font-size: 15px !important;
+    line-height: 26px !important; } }
+/*	Phone
+========================================= */
+@media only screen and (max-width: 768px) {
+  #main-text {
+    padding: 0px 2vw !important;
+    font-size: 14px !important;
+    line-height: 24px !important; } }

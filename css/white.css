@@ -4,7 +4,7 @@
  *  Description:   styles.css
  *===========================*/
 @import url(ionicons.min.css);
-@import url(bootstrap.min.css);
+@import url(bootstrap.css);
 @import url(animsition.min.css);
 @import url(photoswipe.css);
 @import url(default-skin/default-skin.css);
@@ -3819,4 +3819,3 @@ svg {
 	}
 }
 
-/*# sourceMappingURL=white.css.map */
