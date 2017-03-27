@@ -139,7 +139,12 @@ button[type="submit"] {
 	
 }
 
-
+#rightSide {
+	.background-img-holder {
+		background-image: url("../img/village.jpg") !important;
+		background-size: cover;
+	}
+}
 
 
 

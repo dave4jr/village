@@ -196,3 +196,7 @@ button[type="submit"] {
 
 .modal-container {
   display: inline-block; }
+
+#rightSide .background-img-holder {
+  background-image: url("../img/village.jpg") !important;
+  background-size: cover; }

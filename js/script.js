@@ -357,16 +357,16 @@ $(document).ready(function() {
 	/* Backgound img Appending................... */
 	/* ------------------------------------- */
 
-	$(function() {
-		$('.background-img-holder').each(function() {
-			var $imgSrc = $(this).children("img").attr("src");
-			$(this).children("img").hide();
-			$(this).css('background', 'url("' + $imgSrc + '")');
-			$(this).css('background-size', 'cover');
-			$(this).css('background-position', 'center');
-			$(this).css('height', '100%');
-		});
-	});
+	// $(function() {
+	// 	$('.background-img-holder').each(function() {
+	// 		var $imgSrc = $(this).children("img").attr("src");
+	// 		$(this).children("img").hide();
+	// 		$(this).css('background', 'url("' + $imgSrc + '")');
+	// 		$(this).css('background-size', 'cover');
+	// 		$(this).css('background-position', 'center');
+	// 		$(this).css('height', '100%');
+	// 	});
+	// });
 
 
 	/* ------------------------------------- */

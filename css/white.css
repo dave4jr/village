@@ -3485,337 +3485,279 @@ svg {
 /* 8. Media Queries .................... */
 
 /* ------------------------------------- */
-@media only screen and (min-width:2000px) {
-	body {
-		font-family: "Raleway", sans-serif;
-		font-size: 1.6em;
-		line-height: 1.6;
-	}
-	.main-logo {
-		max-width: 150px;
-	}
-	#subscribe {
-		width: 800px;
-		margin-left: calc(50% - 400px);
-		padding: 150px 100px;
-	}
-	#subscribe-form .input-email {
-		font-size: 1em;
-		padding: 0px 20px;
-		height: 2.75em;
-	}
-	#subscribe-form .input-submit {
-		height: 2.75em;
-	}
-	#subscribe-form #subscribe-result {
-		padding: 20px 50px;
-		height: 150px;
-		bottom: -150px;
-		left: -100px;
-		right: -100px;
-	}
-	#subscribe-form .btn-solid, #subscribe-form .btn-solid-dark {
-		padding: 0.625em 2.5em;
-	}
-	#subscribe-form .btn-light {
-		padding: 0.625em 2.5em;
-	}
-	#contact_form {
-		font-size: 0.875em;
-	}
-	#contact_form div {
-		padding: 0 0.3125em;
-	}
-	#contact_form .input-name, #contact_form .input-email, #contact_form .input-message {
-		margin-bottom: 0.625em;
-		padding: 0.625em;
-		height: 2.8125em;
-	}
-	#contact_form .input-message {
-		height: 6.25em;
-	}
-	#contact_form .submit {
-		height: 2.5em;
-	}
-	address {
-		margin-top: 1.5625em !important;
-	}
-	address span {
-		font-size: 1em;
-	}
-	address i {
-		padding-right: 0.3125em;
-	}
-	.launch-date {
-		height: 10em;
-	}
-	.launch-date h2 {
-		margin-bottom: -0.3125em;
-		margin-top: -0.3125em;
-	}
-}
-@media only screen and (min-width:2500px) {
-	body {
-		font-family: "Raleway", sans-serif;
-		font-size: 2em;
-		line-height: 1.6;
-	}
-}
-@media only screen and (max-width:1024px) {
-	#leftSide {
-		position: relative;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100vh;
-		z-index: 2;
-	}
-	#leftSide #info {
-		display: none;
-	}
-	#rightSide {
-		position: relative;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: auto;
-		padding: 0;
-	}
-	#rightSide #rightContent {
-		width: 100%;
-		-webkit-transform: translateX(0);
-		-ms-transform: translateX(0);
-		-moz-transform: translateX(0);
-		-o-transform: translateX(0);
-		transform: translateX(0);
-	}
-	#rightSide #rightContent .close-bar {
-		display: none;
-	}
-	#rightSide.img-only {
-		height: 100vh;
-	}
-	#home {
-		left: -15px;
-	}
-	#home .h-content {
-		position: relative;
-		z-index: 0;
-		margin: 50px 0;
-		color: #fff;
-	}
-	#home .h-content .ion-heart {
-		color: crimson;
-	}
-	#home .h-content.top-34 {
-		top: 34vh;
-	}
-	#home .h-content.top-28 {
-		top: 20vh;
-	}
-	#home .h-content.top-25 {
-		top: 20vh;
-	}
-	#home .h-content.top-20 {
-		top: 20vh;
-	}
-	#home .h-content.top-15 {
-		top: 15vh;
-	}
-	#home .h-content.top-12 {
-		top: 12vh;
-	}
-	#home .h-content.top-10 {
-		top: 10vh;
-	}
-	.main-logo {
-		position: relative;
-		max-width: 125px;
-	}
-	.vertical-result #subscribe-result {
-		position: absolute !important;
-		width: 157%;
-		transform: translateY(100%);
-		-webkit-transition: 0.3s;
-		-ms-transition: 0.3s;
-		-moz-transition: 0.3s;
-		-o-transition: 0.3s;
-		transition: 0.3s;
-		bottom: 0;
-		left: -25%;
-		right: 0;
-		padding: 20px 50px;
-		margin-top: 60px;
-		text-align: left;
-		z-index: 9;
-	}
-}
-@media only screen and (max-width:768px) {
-	.full-height {
-		height: 100vh;
-	}
-	.percent84 {
-		width: 100% !important;
-	}
-	body {
-		font-family: "Raleway", sans-serif;
-		font-size: 1em;
-		line-height: 1.6;
-	}
-	#home .h-content {
-		top: 0;
-	}
-	#contact_form > div {
-		padding: 0 15px;
-	}
-	#contact_form .input-name, #contact_form .input-email, #contact_form .input-message {
-		width: 100%;
-	}
-	p {
-		font-size: 1em;
-	}
-	.background-img-holder {
-		height: 100vh !important;
-	}
-	#leftSide {
-		height: 100vh;
-		z-index: 2;
-	}
-	#rightSide.img-only {
-		height: 100vh;
-	}
-	.h-content {
-		top: 20vh;
-	}
-	#home {
-		height: 100%;
-	}
-	.social_tab.fixed {
-		position: absolute !important;
-		margin-top: 60px;
-		margin-bottom: 50px;
-	}
-	.copyright.fixed {
-		position: absolute !important;
-		margin-top: 60px;
-		margin-bottom: 50px;
-	}
-}
-@media screen and (max-device-width:740px) and (orientation:landscape) {
-	body {
-		font-family: "Raleway", sans-serif;
-		font-size: 0.75em;
-		line-height: 1.6;
-	}
-	#leftSide {
-		position: relative !important;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-	}
-	#rightSide {
-		position: relative !important;
-		top: 0;
-		left: 0%;
-		width: 100%;
-		height: 100%;
-		overflow: scroll;
-		overflow-x: hidden;
-	}
-	.main-logo {
-		max-width: 100px;
-	}
-	.social_tab.fixed {
-		position: relative;
-		margin: 40px 0;
-	}
-}
-@media only screen and (max-width:480px) {
-	body {
-		font-family: "Raleway", sans-serif;
-		font-size: 0.75em;
-		line-height: 1.6;
-	}
-	#container.angle {
-		position: relative;
-	}
-	.main-logo {
-		max-width: 100px;
-	}
-	#output {
-		display: none;
-	}
-	#leftSide {
-		height: 100%;
-	}
-	#contact_form .input-submit {
-		width: 100%;
-		float: none;
-		clear: both;
-	}
-	#form-messages {
-		padding: 0 5px;
-		margin: 0;
-		margin-top: 20px;
-		width: 100%;
-	}
-	#subscribe {
-		width: 280px;
-		padding: 25px;
-		margin-left: calc(50% - 140px);
-	}
-	#subscribe.center {
-		margin-left: calc(50% - 140px) !important;
-	}
-	#subscribe-form.vertical-form .input-email {
-		width: 45% !important;
-	}
-	#subscribe-form #subscribe-result {
-		padding: 20px 50px;
-		height: 90px;
-		position: absolute;
-		bottom: -50px;
-		left: -50px;
-		right: -50px;
-	}
-	.btn-solid, .btn-solid-dark {
-		padding: 0.625em 2.5em;
-	}
-	.btn-light {
-		padding: 0.625em 2.5em;
-	}
-	.social_tab .social_icons li {
-		padding: 0 2.5px;
-	}
-	.h-content {
-		top: auto !important;
-	}
-	.social_tab.fixed {
-		position: relative !important;
-		margin-top: 60px;
-		margin-bottom: 50px;
-	}
-	.copyright.fixed {
-		position: relative !important;
-		bottom: 0;
-	}
-	.copyright.absolute {
-		bottom: 0;
-		padding-bottom: 10px;
-	}
-}
-@media only screen and (max-width:320px) {
-	body {
-		font-family: "Raleway", sans-serif;
-		font-size: 0.625em;
-		line-height: 1.6;
-	}
-	#leftSide {
-		height: 100%;
-	}
-	.main-logo {
-		max-width: 80px;
-	}
-}
+// @media only screen and (min-width:2000px) {
+// 	body {
+// 		font-family: "Raleway", sans-serif;
+// 		font-size: 1.6em;
+// 		line-height: 1.6;
+// 	}
+// 	.main-logo {
+// 		max-width: 150px;
+// 	}
+
+// }
+// @media only screen and (min-width:2500px) {
+// 	body {
+// 		font-family: "Raleway", sans-serif;
+// 		font-size: 2em;
+// 		line-height: 1.6;
+// 	}
+// }
+// @media only screen and (max-width:1024px) {
+// 	#leftSide {
+// 		position: relative;
+// 		top: 0;
+// 		left: 0;
+// 		width: 100%;
+// 		height: 100vh;
+// 		z-index: 2;
+// 	}
+// 	#leftSide #info {
+// 		display: none;
+// 	}
+// 	#rightSide {
+// 		position: relative;
+// 		top: 0;
+// 		left: 0;
+// 		width: 100%;
+// 		height: auto;
+// 		padding: 0;
+// 	}
+// 	#rightSide #rightContent {
+// 		width: 100%;
+// 		-webkit-transform: translateX(0);
+// 		-ms-transform: translateX(0);
+// 		-moz-transform: translateX(0);
+// 		-o-transform: translateX(0);
+// 		transform: translateX(0);
+// 	}
+// 	#rightSide #rightContent .close-bar {
+// 		display: none;
+// 	}
+// 	#rightSide.img-only {
+// 		height: 100vh;
+// 	}
+// 	#home {
+// 		left: -15px;
+// 	}
+// 	#home .h-content {
+// 		position: relative;
+// 		z-index: 0;
+// 		margin: 50px 0;
+// 		color: #fff;
+// 	}
+// 	#home .h-content .ion-heart {
+// 		color: crimson;
+// 	}
+// 	#home .h-content.top-34 {
+// 		top: 34vh;
+// 	}
+// 	#home .h-content.top-28 {
+// 		top: 20vh;
+// 	}
+// 	#home .h-content.top-25 {
+// 		top: 20vh;
+// 	}
+// 	#home .h-content.top-20 {
+// 		top: 20vh;
+// 	}
+// 	#home .h-content.top-15 {
+// 		top: 15vh;
+// 	}
+// 	#home .h-content.top-12 {
+// 		top: 12vh;
+// 	}
+// 	#home .h-content.top-10 {
+// 		top: 10vh;
+// 	}
+// 	.main-logo {
+// 		position: relative;
+// 		max-width: 125px;
+// 	}
+// 	.vertical-result #subscribe-result {
+// 		position: absolute !important;
+// 		width: 157%;
+// 		transform: translateY(100%);
+// 		-webkit-transition: 0.3s;
+// 		-ms-transition: 0.3s;
+// 		-moz-transition: 0.3s;
+// 		-o-transition: 0.3s;
+// 		transition: 0.3s;
+// 		bottom: 0;
+// 		left: -25%;
+// 		right: 0;
+// 		padding: 20px 50px;
+// 		margin-top: 60px;
+// 		text-align: left;
+// 		z-index: 9;
+// 	}
+// }
+// @media only screen and (max-width:768px) {
+// 	.full-height {
+// 		height: 100vh;
+// 	}
+// 	.percent84 {
+// 		width: 100% !important;
+// 	}
+// 	body {
+// 		font-family: "Raleway", sans-serif;
+// 		font-size: 1em;
+// 		line-height: 1.6;
+// 	}
+// 	#home .h-content {
+// 		top: 0;
+// 	}
+// 	#contact_form > div {
+// 		padding: 0 15px;
+// 	}
+// 	#contact_form .input-name, #contact_form .input-email, #contact_form .input-message {
+// 		width: 100%;
+// 	}
+// 	p {
+// 		font-size: 1em;
+// 	}
+// 	.background-img-holder {
+// 		height: 100vh !important;
+// 	}
+// 	#leftSide {
+// 		height: 100vh;
+// 		z-index: 2;
+// 	}
+// 	#rightSide.img-only {
+// 		height: 100vh;
+// 	}
+// 	.h-content {
+// 		top: 20vh;
+// 	}
+// 	#home {
+// 		height: 100%;
+// 	}
+// 	.social_tab.fixed {
+// 		position: absolute !important;
+// 		margin-top: 60px;
+// 		margin-bottom: 50px;
+// 	}
+// 	.copyright.fixed {
+// 		position: absolute !important;
+// 		margin-top: 60px;
+// 		margin-bottom: 50px;
+// 	}
+// }
+// @media screen and (max-device-width:740px) and (orientation:landscape) {
+// 	body {
+// 		font-family: "Raleway", sans-serif;
+// 		font-size: 0.75em;
+// 		line-height: 1.6;
+// 	}
+// 	#leftSide {
+// 		position: relative !important;
+// 		top: 0;
+// 		left: 0;
+// 		width: 100%;
+// 		height: 100%;
+// 	}
+// 	#rightSide {
+// 		position: relative !important;
+// 		top: 0;
+// 		left: 0%;
+// 		width: 100%;
+// 		height: 100%;
+// 		overflow: scroll;
+// 		overflow-x: hidden;
+// 	}
+// 	.main-logo {
+// 		max-width: 100px;
+// 	}
+// 	.social_tab.fixed {
+// 		position: relative;
+// 		margin: 40px 0;
+// 	}
+// }
+// @media only screen and (max-width:480px) {
+// 	body {
+// 		font-family: "Raleway", sans-serif;
+// 		font-size: 0.75em;
+// 		line-height: 1.6;
+// 	}
+// 	#container.angle {
+// 		position: relative;
+// 	}
+// 	.main-logo {
+// 		max-width: 100px;
+// 	}
+// 	#output {
+// 		display: none;
+// 	}
+// 	#leftSide {
+// 		height: 100%;
+// 	}
+// 	#contact_form .input-submit {
+// 		width: 100%;
+// 		float: none;
+// 		clear: both;
+// 	}
+// 	#form-messages {
+// 		padding: 0 5px;
+// 		margin: 0;
+// 		margin-top: 20px;
+// 		width: 100%;
+// 	}
+// 	#subscribe {
+// 		width: 280px;
+// 		padding: 25px;
+// 		margin-left: calc(50% - 140px);
+// 	}
+// 	#subscribe.center {
+// 		margin-left: calc(50% - 140px) !important;
+// 	}
+// 	#subscribe-form.vertical-form .input-email {
+// 		width: 45% !important;
+// 	}
+// 	#subscribe-form #subscribe-result {
+// 		padding: 20px 50px;
+// 		height: 90px;
+// 		position: absolute;
+// 		bottom: -50px;
+// 		left: -50px;
+// 		right: -50px;
+// 	}
+// 	.btn-solid, .btn-solid-dark {
+// 		padding: 0.625em 2.5em;
+// 	}
+// 	.btn-light {
+// 		padding: 0.625em 2.5em;
+// 	}
+// 	.social_tab .social_icons li {
+// 		padding: 0 2.5px;
+// 	}
+// 	.h-content {
+// 		top: auto !important;
+// 	}
+// 	.social_tab.fixed {
+// 		position: relative !important;
+// 		margin-top: 60px;
+// 		margin-bottom: 50px;
+// 	}
+// 	.copyright.fixed {
+// 		position: relative !important;
+// 		bottom: 0;
+// 	}
+// 	.copyright.absolute {
+// 		bottom: 0;
+// 		padding-bottom: 10px;
+// 	}
+// }
+// @media only screen and (max-width:320px) {
+// 	body {
+// 		font-family: "Raleway", sans-serif;
+// 		font-size: 0.625em;
+// 		line-height: 1.6;
+// 	}
+// 	#leftSide {
+// 		height: 100%;
+// 	}
+// 	.main-logo {
+// 		max-width: 80px;
+// 	}
+// }
 
